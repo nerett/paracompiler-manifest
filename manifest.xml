@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com" />
+  <default remote="github" revision="master" sync-j="4" />
+  <project path="paracl" name="vian96/ParaCompiler" revision="master" />
+  <project path="external/antlr4" name="antlr/antlr4" revision="4.13.1" />
+</manifest>
