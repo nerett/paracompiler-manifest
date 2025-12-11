@@ -2,10 +2,6 @@
 <manifest>
   <remote name="github" fetch="https://github.com" />
   <default remote="github" revision="master" sync-j="4" />
-  <project path="src" name="vian96/ParaCompiler" revision="master">
-    <copyfile src="Makefile" dest="Makefile" />
-    <copyfile src="CMakePresets.json" dest="CMakePresets.json" />
-  </project>
+  <project path="paracl" name="vian96/ParaCompiler" revision="master" />
   <project path="external/antlr4" name="antlr/antlr4" revision="4.13.1" />
-  <project path="external/llvm-project" name="llvm/llvm-project" revision="main" clone-depth="1" />
 </manifest>
