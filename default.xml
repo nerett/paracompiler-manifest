@@ -3,5 +3,6 @@
   <remote name="github" fetch="https://github.com" />
   <default remote="github" revision="master" sync-j="4" />
   <project path="paracl" name="vian96/ParaCompiler" revision="master" />
+  <project path="tools" name="nerett/paracompiler-tools" revision="main" />
   <project path="external/antlr4" name="antlr/antlr4" revision="refs/tags/4.13.1" />
 </manifest>
